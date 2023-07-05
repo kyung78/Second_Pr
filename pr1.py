@@ -18,7 +18,7 @@ def test_multiply()->None:
 def test_divide()->None:
     alpha,beta = 1,2
     result = add(alpha = alpha, beta=beta)
-    assert (alpha//beta,alpha%beta)==result,"Error: function 'divide'"
+    assert (alpha//beta,alpha%beta)==result,"Error: function 'divide2'"
 
 
 
